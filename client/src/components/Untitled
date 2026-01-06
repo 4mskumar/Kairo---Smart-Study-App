@@ -1,0 +1,5 @@
+  const addTag = (tag) => {
+    if (tag && !tags.includes(tag)) {
+      setTags((prev) => [...prev, tag]);
+    }
+  };

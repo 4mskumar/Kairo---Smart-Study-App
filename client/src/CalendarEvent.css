@@ -1,0 +1,18 @@
+/* Shrink the overall calendar height */
+
+  .ant-picker-calendar {
+    max-width: 500px;
+    /* max-height: 100px; */
+  }
+  
+ /* Shrink cell size */
+.ant-picker-cell {
+  height: 50px !important;
+  padding: 4px !important;
+}
+
+.events {
+  max-height: 20px;
+  overflow: hidden;
+  font-size: 10px;
+}
